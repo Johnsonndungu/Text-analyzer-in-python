@@ -61,7 +61,7 @@ class TextAnalysisTool:
         }
 
 # Example usage
-text = "Hello world! This is a test. Testing, one, two, three."
+text = input("Enter your sentence or world here: ")
 tool = TextAnalysisTool(text)
 analysis = tool.analyze_text()
 print(analysis)
